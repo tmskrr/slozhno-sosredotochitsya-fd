@@ -5,8 +5,6 @@
 }
 
 html {
-  margin: 0;
-  padding: 0;
   block-size: 100%;
 }
 
@@ -32,12 +30,14 @@ h5,
 h6,
 ol,
 ul,
+li,
 p {
   margin: 0;
   padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
