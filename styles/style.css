@@ -46,6 +46,11 @@
   border-radius: 50%;
 }
 
+.theme-light .rec,
+.theme-auto .rec {
+  display: none;
+}
+
 .header__title {
   grid-row: 2;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -75,8 +80,9 @@
 
 .header__theme-menu {
   grid-row: 1;
-  align-self: end;
+  align-self: center;
   justify-self: end;
+  margin-block-start: 39px;
   color: var(--text-buttom-color);
 }
 
@@ -164,6 +170,10 @@
 .content__tip-title {
   background-color: var(--accent-color);
   color: var(--text-subtitle-color);
+}
+
+.content__text {
+   line-height: 23.4px;
 }
 
 .content__decor-word {
@@ -273,6 +283,10 @@
 
 .header__theme-menu {
   align-self: center;
+}
+
+.content-section {
+  gap: 80px; 
 }
 
 .content__article_theme {
@@ -413,6 +427,10 @@
 .header__theme-menu-list {
   display: flex;
   gap: 10px;
+}
+
+.content-section {
+  gap: 80px; 
 }
 
 .content__article_theme {
