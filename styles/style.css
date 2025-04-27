@@ -167,7 +167,11 @@
 .content__tip-title {
   background-color: var(--accent-color);
   color: var(--text-subtitle-color);
-  margin-block-start: 10px;
+}
+
+.content__subtitle-wrapper {
+  display: grid;
+  gap: 20px;
 }
 
 .content__text {
@@ -273,6 +277,7 @@
 
 .header__title {
   font-size: 120px;
+  margin: 0;
 }
 
 .header__text {
@@ -521,10 +526,6 @@
   flex-direction: column;
   grid-column: 2;
   gap: 10px;
-}
-
-.content__tip-title {
-
 }
 
 .card {
