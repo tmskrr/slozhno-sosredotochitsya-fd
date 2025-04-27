@@ -11,11 +11,8 @@ html {
 }
 
 body {
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
-  overflow: auto;
   text-decoration: none;
   margin: 0;
   padding: 0;
