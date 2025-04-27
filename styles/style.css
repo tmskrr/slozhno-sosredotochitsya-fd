@@ -9,7 +9,6 @@
   color: var(--text-color);
   background-color: var(--bg-color);
   min-height: 100vh;
-  padding: 10px 10px;
 }
 
 .header {
@@ -19,6 +18,7 @@
   align-items: start;
   position: relative;
   min-height: 668px;
+  padding: 10px 10px;
 }
 
 .rec {
@@ -136,6 +136,7 @@
 .content-section {
   display: grid;
   gap: 50px;
+  padding: 10px 10px;
 }
 
 .content__article {
@@ -184,6 +185,7 @@
   grid-template-columns: 1fr;
   gap: 10px;
   margin-block-start: 50px;
+  padding: 10px 10px;
 }
   
 .card__title {
@@ -203,6 +205,7 @@
   display: grid;
   place-items: center;
   min-height: 667px;
+  padding: 10px 10px;
 } 
 
 .footer__title {
@@ -242,9 +245,16 @@
 
 @media (min-width: 768px) {
 .page {
-  padding: 20px 20px;
   gap: 60px;
 }
+
+.header,
+.content-section,
+.card,
+.footer {
+  padding: 20px 20px;
+}
+
 
 .header {
   min-height: 1024px;
@@ -369,8 +379,14 @@
 
 @media (min-width: 1024px) {
 .page {
-  padding: 20px 20px;
   gap: 50px;
+}
+
+.header,
+.content-section,
+.card,
+.footer {
+  padding: 20px 20px;
 }
   
 .header {
