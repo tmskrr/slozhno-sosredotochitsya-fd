@@ -159,6 +159,7 @@
 
 .content__subtitle {
   font-weight: 700;
+  
   color: var(--text-subtitle-color);
   background-color: var(--accent-color);
 }
@@ -166,10 +167,11 @@
 .content__tip-title {
   background-color: var(--accent-color);
   color: var(--text-subtitle-color);
+  margin-block-start: 10px;
 }
 
 .content__text {
-   line-height: 23.4px;
+  line-height: 23.4px;
 }
 
 .content__decor-word {
@@ -437,6 +439,7 @@
   
 .header__title {
   font-size: 157px;
+  margin: 0;
 }
   
 .header__text {
@@ -518,6 +521,10 @@
   flex-direction: column;
   grid-column: 2;
   gap: 10px;
+}
+
+.content__tip-title {
+
 }
 
 .card {
