@@ -162,7 +162,7 @@
 
 .content__tip-title {
   background-color: var(--accent-color);
-  color: var(--text-title-color);
+  color: var(--text-subtitle-color);
 }
 
 .content__decor-word {
