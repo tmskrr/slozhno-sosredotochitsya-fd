@@ -188,7 +188,7 @@
   
 .card__title {
   font-weight: 700;
-  color: var(--text-title-color);
+  color: var(--text-subtitle-color);
   background-color: var(--accent-color);
   font-size: 18px;
 }
