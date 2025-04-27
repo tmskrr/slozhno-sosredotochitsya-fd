@@ -10,14 +10,14 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root { 
+:root { 
   --bg-color: #FFF1F7;
   --text-title-color: #353430;
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --header-title-color: #FFC2E6;
   --shadow-color: #FF8DCB;
-  --bg-image: url(../images/cover-image-light.png);    
+  --bg-image: url(../images/cover-image-light.png);
 }
 }
 
