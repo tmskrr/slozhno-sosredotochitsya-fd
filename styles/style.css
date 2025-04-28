@@ -15,7 +15,6 @@
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  align-items: start;
   position: relative;
   height: 100vh;
   min-height: 668px;
@@ -59,7 +58,7 @@
   line-height: 0.825;
   text-shadow: 4px 4px 0 var(--accent-color);
   font-weight: 700;
-  margin-block-start: clamp(40px, 10vw, 140px);
+  margin-block-start: clamp(80px, 10vw, 140px);
 }
 
 .header__text {
@@ -76,7 +75,7 @@
 
 .header__theme-menu {
   grid-row: 1;
-  align-self: center;
+  align-self: end;
   justify-self: end;
   color: var(--text-buttom-color);
 }
@@ -267,7 +266,7 @@
 .header__title {
   font-size: var(--logo-size);
   margin: 0;
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 .header__text {
