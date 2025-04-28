@@ -1,5 +1,6 @@
 :root.theme-light {
   --bg-color: #FFF1F7;
+  --text-header-title-color: #353430;
   --text-title-color: #353430;
   --text-subtitle-color: #353430;
   --text-color: #353430;
@@ -14,6 +15,7 @@
 @media (prefers-color-scheme: light) {
 :root {
   --bg-color: #FFF1F7;
+  --text-header-title-color: #353430;
   --text-title-color: #353430;
   --text-subtitle-color: #353430;
   --text-color: #353430;
