@@ -146,12 +146,10 @@
 .content__title {
   font-weight: 700;
   color: var(--text-title-color);
-  font-size: 18px;
 }
 
 .content__subtitle {
   font-weight: 700;
-  
   color: var(--text-subtitle-color);
   background-color: var(--accent-color);
 }
@@ -266,7 +264,7 @@
 .header__title {
   font-size: var(--logo-size);
   margin: 0;
-  margin-left: -10px;
+  margin-left: -20px;
 }
 
 .header__text {
