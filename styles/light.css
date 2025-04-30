@@ -8,8 +8,7 @@
   --accent-color: #FF8DCB;
   --accent-border-color: #353430;
   --accent-border-color-transparent: rgba(50, 49, 45, 0.4);
-
-с  --header-title-color: #FFC2E6;
+  --header-title-color: #FFC2E6;
   --shadow-color: #FF8DCB;
   --bg-image: url(../images/cover-image-light.png);
 }
