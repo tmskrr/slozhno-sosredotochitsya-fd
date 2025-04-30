@@ -7,6 +7,7 @@
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --accent-border-color: #FF0070;
+  --accent-border-color-transparent: rgba(255, 0, 112, 0.4);
   --header-title-color: #DB00FF;
   --shadow-color: #FF0070;
   --bg-image: url(../images/cover-image-dark.png);
